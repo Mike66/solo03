@@ -3,4 +3,9 @@ fieldset {
 		margin: 30px;
 		position: relative;
 		border: 2px groove threedface;
+		padding-right: 75%;
+}
+h2 {
+	position: relative;
+	font-family: Garamont;
 }
