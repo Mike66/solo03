@@ -3,14 +3,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link type="text/css" rel="stylesheet" href="stylesheet.css" />
 <title>Barrierefreies Suchformular</title>
 </head>
 <body>
+<h1>Barrierefreies Webformular für die Suche nach Wikipedia Artikeln</h1>
 <form action="http://de.wikipedia.org/wiki/Spezial:Suche">
   <fieldset>
     <legend>Suchen</legend>
-    <input type="text"   name="search" value="" />
-    <input type="submit" name="go" value="Artikel"/>
+    <label for="search">""Suchbegriff eingeben:"</label><br />
+    <input type="text"   name="search" value="" /> <br />
+    <input type="submit" name="go" value="Artikel"/> <br />
     <input type="submit" name="fulltext" value="Volltext" />
   </fieldset>
 </form>
