@@ -4,8 +4,6 @@ fieldset {
 		position: relative;
 		border: 3px groove threedface;
 		padding-right: 75%;
-		border-collapse: separate;
-		border-spacing: 20px;
 }
 h1 {
 	position: apsolute;
