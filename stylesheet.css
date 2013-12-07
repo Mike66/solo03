@@ -2,10 +2,11 @@ fieldset {
 		border-radius: 20px;
 		margin: 30px;
 		position: relative;
-		border: 2px groove threedface;
+		border: 3px groove threedface;
 		padding-right: 75%;
 }
 h2 {
-	position: relative;
+	position: apsolute;
+	left: 100px;
 	font-family: Garamont;
 }
