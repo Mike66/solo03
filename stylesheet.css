@@ -4,8 +4,10 @@ fieldset {
 		position: relative;
 		border: 3px groove threedface;
 		padding-right: 75%;
+		border-collapse: separate;
+		border-spacing: 20px;
 }
-h2 {
+h1 {
 	position: apsolute;
 	left: 100px;
 	font-family: Garamont;
